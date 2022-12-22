@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title></title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto">
+              <!-- <li class="nav-item dropdown notification-ui show">
+                        <a class="nav-link dropdown-toggle notification-ui_icon" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           
+                            <span class="unread-notification"></span>
+                        </a> -->
+              <!-- <div class="dropdown-menu notification-ui_dd show" aria-labelledby="navbarDropdown"> -->
+              <!-- <div class="notification-ui_dd-header">
+                                <h3 class="text-center">Notification</h3>
+                            </div> -->
+              <!-- <div class="notification-ui_dd-content">
+                                <div class="notification-list notification-list--unread">
+                                    <div class="notification-list_img">
+                                        <img src="https://i.imgur.com/zYxDCQT.jpg" alt="user">
+                                    </div>
+                                    <div class="notification-list_detail">
+                                        <p><b>John Doe</b> reacted to your post</p>
+                                        <p><small>10 mins ago</small></p>
+                                    </div>
+                                    <div class="notification-list_feature-img">
+                                        <img src="https://i.imgur.com/AbZqFnR.jpg" alt="Feature image">
+                                    </div>
+                                </div>
+                                <div class="notification-list notification-list--unread">
+                                    <div class="notification-list_img">
+                                        <img src="https://i.imgur.com/w4Mp4ny.jpg" alt="user">
+                                    </div>
+                                    <div class="notification-list_detail">
+                                        <p><b>Richard Miles</b> reacted to your post</p>
+                                        <p><small>1 day ago</small></p>
+                                    </div>
+                                    <div class="notification-list_feature-img">
+                                        <img src="https://i.imgur.com/AbZqFnR.jpg" alt="Feature image">
+                                    </div>
+                                </div>
+                                <div class="notification-list">
+                                    <div class="notification-list_img">
+                                        <img src="https://i.imgur.com/ltXdE4K.jpg" alt="user">
+                                    </div>
+                                    <div class="notification-list_detail">
+                                        <p><b>Brian Cumin</b> reacted to your post</p>
+                                        <p><small>1 day ago</small></p>
+                                    </div>
+                                    <div class="notification-list_feature-img">
+                                        <img src="https://i.imgur.com/bpBpAlH.jpg" alt="Feature image">
+                                    </div>
+                                </div>
+                                <div class="notification-list">
+                                    <div class="notification-list_img">
+                                        <img src="https://i.imgur.com/CtAQDCP.jpg" alt="user">
+                                    </div>
+                                    <div class="notification-list_detail">
+                                        <p><b>Lance Bogrol</b> reacted to your post</p>
+                                        <p><small>1 day ago</small></p>
+                                    </div>
+                                    <div class="notification-list_feature-img">
+                                        <img src="https://i.imgur.com/iIhftMJ.jpg" alt="Feature image">
+                                    </div>
+                                </div>
+                            </div> -->
+              <!-- <div class="notification-ui_dd-footer">
+                                <a href="#!" class="btn btn-success btn-block">View All</a>
+                            </div> -->
+              <!-- </div>
+                    </li> -->
+              <li class="nav-item">
+                <a class="nav-link" href="#">Dashboard</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Master Price</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Custom Price</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Calendar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Reports</a>
+              </li>
+            </ul>
+            <i class="notification fa fa-bell"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="master_price">
+      <h3>Master Price</h3>
+    </div>
+    <hr />
+    <div class="switchTabs">
+      <div class="wrapper">
+        <div class="buttonWrapper">
+          <button
+            class="tab-button active"
+            style="border-top-left-radius: 0px"
+            data-id="home"
+          >
+            Round Trip
+          </button>
+          <button class="tab-button" data-id="css">One Way</button>
+          <button
+            class="tab-button"
+            style="border-top-right-radius: 0px"
+            data-id="script"
+          >
+            Multi City
+          </button>
+        </div>
+        <!-- <div class="contentWrapper">
+    <div class="content active" id="home">
+    </div>
+      
+    
+    <p class="content" id="css">
+     
+    </p>
+    <p class="content" id="script">
+      
+    </p>
+  </div> -->
+      </div>
+    </div>
+    <hr />
+    <div class="formDiv">
+      <div class="inputForm">
+        <form method="post">
+          <div class="formTwoContainer" class="span6" id="formTwoContainer">
+            <div class="rowsToAdd">
+              <div class="form-group">
+                <div class="controls">
+                  <input
+                    type="text"
+                    class="arrival"
+                    id="arrival"
+                    placeholder="LHR"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="controls">
+                  <input
+                    type="text"
+                    class="departure"
+                    id="departure"
+                    placeholder="CDG"
+                    value=""
+                  />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <div class="controls">
+                  <input
+                    type="date"
+                    class="date"
+                    id="date"
+                    placeholder=""
+                    value=""
+                  />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <div class="controls">
+                  <select class="dayDeparture">
+                    <option>Day -</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="controls">
+                  <select class="dayArrival">
+                    <option>Day +</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="controls">
+                  <select class="time">
+                    <option>Any Time</option>
+                  </select>
+                </div>
+              </div>
+
+              <input type="button" class="addButtonTwo" value="+" />
+              <div class="form-group">
+                <div class="controls">
+                  <select class="adt">
+                    <option>ADT</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="controls">
+                  <select class="quantity">
+                    <option>1</option>
+                  </select>
+                </div>
+              </div>
+              <input type="button" class="addButtonTwo" value="+" />
+            </div>
+            <hr/>
+           <div class="flextwo">
+
+          
+            <div class="col-md-4 extra">
+                <input type="checkbox" >
+                <label class="extraoptions">Extra Options
+                 
+            </div>
+            <div class="col-md-4 environment">
+                <label class="environmentlabel">Environment</label>
+                <input type="radio"  name="dummy" value="dummy"><span class="dummy">Dummy</span> 
+                <input type="radio"  name="pdt" value="pdt"><span class="pdt">PDT</span> 
+            </div>
+
+              <div class=" col-md-4 searchbutton">
+              <input
+                type="submit"
+                class="submit-btn"
+                value="Search"
+                name="Search"
+                id="submit"
+              />
+              </div>
+            
+             </div>
+          
+        </form>
+        <hr>
+      </div>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+    ></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
